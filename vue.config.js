@@ -3,12 +3,14 @@ module.exports = defineConfig({
   transpileDependencies: true,
 });
 
-// css: {
-//   loaderOptions: {
-//     sass: {
-//       additionalData: `
-//         @import "@/assets/main.scss";
-//       `,
-//     },
-//   },
-// },
+module.exports = {
+  css: {
+    loaderOptions: {
+      scss: {
+        additionalData: `
+          @import "@/assets/main.scss";
+        `,
+      },
+    },
+  },
+};
