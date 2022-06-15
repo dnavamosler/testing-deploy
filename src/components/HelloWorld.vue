@@ -111,6 +111,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 export default {
   name: "HelloWorld",
   props: {
