@@ -6,8 +6,8 @@ module.exports = defineConfig({
 module.exports = {
   css: {
     loaderOptions: {
-      scss: {
-        data: `
+      sass: {
+        additionalData: `
           @import "@/assets/main.scss";
         `,
       },
